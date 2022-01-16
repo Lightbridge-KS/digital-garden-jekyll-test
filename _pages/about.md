@@ -4,6 +4,6 @@ title: About
 permalink: /about
 ---
 
-*This is an about page.*
+Created by Kittipos Sirivongrungson
 
-Feel free to tell the world about what you love! 😍
+See code in [Github](https://github.com/Lightbridge-KS/digital-garden-jekyll-test)

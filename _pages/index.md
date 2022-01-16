@@ -5,15 +5,28 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
-
+# Home 🏡
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+
+Take a look at <span style="font-weight: bold">[[MOC]]</span> to see overview of notes organization.
+
 </p>
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll). If you need any help, my [DMs are open on Twitter (@vaillancourtmax)](https://twitter.com/vaillancourtmax). 👋
+
+### How To
+
+#### Internal Link from `_pages/` to `_notes`
+
+- Link to file under  `_notes/` directly will works in Obsidian and in web:  [[cats]]
+	- while using `../_notes/02-cats]]` will not work: [[../_notes/cats]]
+- Chage displayed text will works
+	- See using  `[[02-cats]]|this cat]]`: [[../_notes/cats|this cat]]
+- link with title quite reliably work in site, but not in obsidian: [[A note about cats]] 
+
+
+**Created using:** digital garden template [available on GitHub](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+
 
 <style>
   .wrapper {
